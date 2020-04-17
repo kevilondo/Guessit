@@ -1,0 +1,133 @@
+/* Style the whole page */
+
+html, body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #f1f1f1 !important;
+}
+
+.home, .description
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+ul
+{
+    text-align: left;
+}
+
+.card-header
+{
+    font-size: 38px;
+    color: #1869ce;
+}
+
+.wrapper
+{
+    min-height: 100%;
+    position: relative;
+}
+
+footer
+{
+    position: absolute;
+    margin-bottom: 0px;
+    left: 0px;
+    height: 60%;
+    width: 100%;
+}
+
+/* Style the navbar */
+
+.nav-link
+{
+    color: #343434 !important;
+    font-size: 23px;
+}
+
+.nav-link:hover
+{
+    border: 3px solid #1869ce;
+    transition: 0.14s ease-in-out;
+    padding: 5px 15px 5px 15px;
+}
+
+nav
+{
+    background: #ffffff;
+}
+
+.navbar-brand
+{
+    color: #1869ce !important;
+}
+
+/* style the play page */
+
+/*.menu
+{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
+
+.button
+{
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px 8px 8px 8px;
+    background: #1869ce;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 4px;
+}
+
+.button:hover
+{
+    background: #ffffff;
+    color: #1869ce;
+    transition: 0.20s ease-in;
+    text-decoration: none;
+}
+
+/* style the game page */
+
+.category
+{
+    font-size: 24px;
+}
+
+.question
+{
+    font-size: 30px;
+}
+
+#timer
+{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button:active, button:focus
+{
+    outline: none !important;
+}
+
+#score
+{
+    font-weight: bold;
+}
+
+/*style the leaderboard */
+
+td
+{
+    border-bottom: #1869ce solid 0.5px;
+    font-size: 28px;
+}
